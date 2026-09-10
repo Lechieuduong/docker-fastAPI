@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: ai-api
-          image: 810967692205.dkr.ecr.ap-southeast-1.amazonaws.com/dev-ai-api:latest
+          image: 810967692205.dkr.ecr.ap-southeast-1.amazonaws.com/dev-ai-api:bb058f3c37020e861705ad35efb8f15838cd9843
 
           ports:
             - containerPort: 8000
