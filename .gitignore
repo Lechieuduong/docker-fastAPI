@@ -162,3 +162,16 @@ cython_debug/
 #.idea/
 
 *.pkl
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Local Terraform variables
+*.tfvars
+*.tfvars.json
